@@ -1,0 +1,3 @@
+spring:  application:    name: Gau's Toys
+server:
+  port: 80

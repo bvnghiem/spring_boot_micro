@@ -1,9 +1,11 @@
-package com.nghiem.gau.toys.web;
+package com.gau.web.toys;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+@ComponentScan("com.gau.web.toys.controller")
 public class ToysWebStarter {
 
     public static void main(String[] args) {
