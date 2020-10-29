@@ -1,0 +1,16 @@
+spring:
+
+  datasource:
+    url: jdbc:mariadb://localhost:3306/overtime_tracking?useSSL=false
+    username: root
+    password: mysql
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  application:
+    name: Overtime Tracking Tool
+
+server:
+  port: 80
